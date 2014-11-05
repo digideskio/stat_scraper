@@ -15,7 +15,7 @@ a plain-text login supported by Canvas which can be added to the user account th
 
 This plain-text login is added to your account by searching for your user, viewing the user profile page (/accounts/:account_id/users/:user_id), and then under the 'Login Information' form using the 'Add Login' link to establish a unique login ID and password. The use of an email address is recommended as the 'Login' value for this form.
 
-After you've configured this plain-text username/password, edit the config.yml file so that the 'auth_user' and 'auth_pass' values reflect the login and password for your Canvas-LMS user account that has Account Admin privileges.
+After you've configured this plain-text username/password, open the config.example.yml file and save it as config.yml. Next edit the 'auth_user' and 'auth_pass' values to reflect the login and password for your Canvas-LMS user account that has Account Admin privileges.
 
 ## Providing Courses CSV Report
 
