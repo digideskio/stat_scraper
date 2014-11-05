@@ -3,3 +3,4 @@
   auth_user: 'myusername'
   auth_pass: 'mypassword'
   report_filename: 'provisioning_courses.csv'
+  statistics_filename: 'course_statistics.csv'
